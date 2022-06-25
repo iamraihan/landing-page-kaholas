@@ -1,6 +1,6 @@
 import React from "react";
 import useProjectData from "./hooks/useProjectData";
-import Rating from "./Rating";
+import Ratings from "./Ratings";
 
 const Information = () => {
   const [projectData] = useProjectData();
@@ -26,7 +26,7 @@ const Information = () => {
         </div>
       </div>
       <div>
-        <Rating></Rating>
+        <Ratings></Ratings>
       </div>
     </div>
   );
