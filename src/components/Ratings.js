@@ -15,7 +15,7 @@ const Ratings = () => {
     <div>
       <div className=" mr-5">
         {rate.map((star) => (
-          <div className="flex mb-2" key={star._id}>
+          <div className="md:flex mb-2" key={star._id}>
             <Rating
               initialRating={star.raring}
               emptySymbol={<FaStar className="text-2xl text-neutral"></FaStar>}
