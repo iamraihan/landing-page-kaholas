@@ -18,7 +18,7 @@ const Home = () => {
           </span>
         </p>
       </div>
-      <div className="grid lg:grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-2 gap-5 mt-16">
         <Information></Information>
         <Gallery></Gallery>
       </div>
