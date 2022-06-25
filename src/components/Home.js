@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h1 className="text-5xl font-bold text-secondary">
+        <h1 className="text-5xl font-bold text-secondary mt-20">
           Summer Art Camp! 5 Days of Artists and Painting Monet, Van Gogh,
           Matisse, More
         </h1>

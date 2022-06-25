@@ -1,6 +1,9 @@
 import React from "react";
 import useProjectData from "./hooks/useProjectData";
 import Ratings from "./Ratings";
+import { FaAngleRight, FaRegShareSquare } from "react-icons/fa";
+import { AiOutlineHeart } from "react-icons/ai";
+import { RiShareForwardLine } from "react-icons/ri";
 
 const Information = () => {
   const [projectData] = useProjectData();
@@ -27,6 +30,26 @@ const Information = () => {
       </div>
       <div>
         <Ratings></Ratings>
+      </div>
+      <h2 className="text-secondary text-2xl ">Completed by 21 learners</h2>
+      <div className="flex  mt-10">
+        <div>
+          {" "}
+          <button className="btn btn-primary rounded-3xl text-white capitalize text-xl px-5 mr-16">
+            See Class Schedule
+            <span>
+              <FaAngleRight className="text-xl "></FaAngleRight>
+            </span>
+          </button>
+        </div>
+        <div className="flex text-primary font-bold text-2xl items-center mr-16">
+          <AiOutlineHeart></AiOutlineHeart>
+          <h3>Save</h3>
+        </div>
+        <div className="flex text-primary font-bold text-2xl items-center">
+          <RiShareForwardLine></RiShareForwardLine>
+          <h3>Share</h3>
+        </div>
       </div>
     </div>
   );

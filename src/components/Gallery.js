@@ -6,13 +6,13 @@ const Gallery = () => {
   return (
     <div className="grid grid-cols-2 gap-2">
       <div className="row-span-2">
-        <img src={projectData[0]?.image1} alt="" />
+        <img className="h-full w-auto" src={projectData[0]?.image1} alt="" />
       </div>
       <div>
-        <img src={projectData[0]?.image2} alt="" />
+        <img className="h-full w-auto" src={projectData[0]?.image2} alt="" />
       </div>
       <div>
-        <img src={projectData[0]?.image3} alt="" />
+        <img className="h-full w-auto" src={projectData[0]?.image3} alt="" />
       </div>
     </div>
   );
